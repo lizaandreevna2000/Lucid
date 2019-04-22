@@ -1,0 +1,93 @@
+.pricing_black
+    &-wrap 
+        margin-top: 68px
+        display: flex
+        justify-content: space-between
+    &-header 
+        display: flex
+        flex-direction: column
+        align-items: center
+        .blue-text
+            margin-top: 62px
+        .black-text
+            margin: 13px 0 28px 0
+.price
+    width: 272px
+    height: 491px
+    border-bottom: 1px solid #e0e0e0
+    border-right: 1px solid #e0e0e0
+    border-left: 1px solid #e0e0e0
+    cursor: pointer
+    &_name
+        font-family: "Source Sans Pro", sans-serif
+        text-transform: uppercase
+        font-size: 24px
+        color: #1a1a1a
+        padding: 22px 0px 19px 0px
+        border: 1px solid #e0e0e0
+        margin: 0
+        text-align: center
+    &_dollar
+        font-size: 37px
+        font-family: "Source Sans Pro", sans-serif
+        font-weight: 600
+        margin-right: -5px
+        sup 
+            top: -0.7em
+    &_zero
+        font-weight: 600
+        font-size: 60px
+        font-family: "Source Sans Pro", sans-serif
+    &_month
+        font-size: 18px
+        font-family: "Source Sans Pro", sans-serif
+        color: #999999
+        margin-top: 0px
+    div
+        text-align: center
+        padding: 26px 90px 18px
+        border-bottom: 1px solid #e0e0e0
+    &_text
+        margin: 0
+        padding: 46px 36px 0px 38px
+        text-align: center
+        font-family: "Source Sans Pro", sans-serif
+        font-size: 18px
+        color: #999999
+        line-height: 26px
+    .button
+        margin-top: 40px
+        margin-left: 58px
+        padding: 16px 40px 
+        border: 1px solid #e0e0e0
+.price:hover
+    h1
+        color: #008ed6
+    div
+        background-color: #008ed6
+        color: #fafafa
+    .price_month
+        color: #fafafa
+    .button
+        background-color: #008ed6
+        .blue
+            color: #fafafa
+@media (max-width: 991px)
+    .pricing_black
+        height: auto
+        &-wrap 
+            flex-direction: column
+            align-items: center
+            margin-top: 47px
+            padding-bottom: 61px
+    .price
+        width: 218px
+        height: 355px
+        margin-top: 20px
+        div
+            padding: 25px 54px 18px
+        &_text 
+            display: none
+        .button
+            margin-top: 46px
+            margin-left: 32px

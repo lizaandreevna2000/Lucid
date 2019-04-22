@@ -1,0 +1,58 @@
+.features__device
+    &-wrap 
+        display: flex
+#device_img
+    padding: 67px 13px
+.device__text
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    padding-top: 116px
+    padding-left: 60px
+    .black-text
+        margin: 13px 0 25px
+.words
+    padding: 5px 58px
+    &__paragraph
+        font-family: 'Source Sans Pro', sans-serif
+        font-size: 18px
+        color: #999999
+        line-height: 1.5
+    &__ul
+        margin: 31px 0
+        font-family:  'Source Sans Pro', sans-serif
+        font-weight: 400
+        font-size: 18px
+        color: #1b1b1b
+        padding: 0    
+        img 
+          margin-right: 11px
+        li 
+          list-style: none
+          margin: 15px  0
+#li__right
+    padding-left: 3px
+#right
+    padding-left: 3px
+@media (max-width: 991px)
+    .features__device
+        height: 574px
+        &-wrap 
+            justify-content: center
+            align-items: center
+    #device_img
+        padding: 53px 13px
+        height: 395px
+        width: 278px
+    .words
+        &__paragraph  
+            font-size: 16px
+        &__ul
+            font-size: 16px
+@media (max-width: 768px)
+    .features__device
+        height: auto
+        &-wrap 
+            flex-direction: column 
+    .device__text
+        padding-top: 0

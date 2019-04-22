@@ -1,0 +1,133 @@
+.pricing_white
+    display: none
+    &-wrap 
+        display: flex
+        justify-content: space-between
+        margin-top: 63px
+    &-header 
+        display: flex
+        flex-direction: column
+        align-items: center
+        .blue-text
+            margin-top: 62px
+        .black-text
+            margin: 13px 0 28px 0
+            color: #ffffff
+.info
+    &__text
+        width: 557px
+        line-height: 32px
+        color: #ffffff
+        font-family: "Source Sans Pro", sans-serif
+        font-style: italic
+        font-size: 24px
+        font-weight: 400 
+    &__name
+        font-size: 16px
+        font-weight: 400
+        font-family: "Source Sans Pro", sans-serif
+        color: #ffffff
+        margin: 2px 0 0px 18px
+    &__position
+        font-size: 14px
+        font-weight: 700
+        font-family: "Source Sans Pro", sans-serif
+        color: #ffffff
+        margin: 9px 0 0 20px
+.name_position
+    display: flex
+    div
+        margin-top: 5px
+.theme_now
+    &-wrap 
+        display: flex
+        justify-content: space-between
+    &-text 
+        margin: 0 
+        padding-top: 66px
+        font-weight: 300
+        font-size: 36px
+        color: #ffffff
+        font-family: "Source Sans Pro", sans-serif
+    .group-button
+        display: flex
+        align-items: center
+    .button
+        margin-top: 62px
+        margin-right: 0
+        margin-left: 19px
+.dot 
+  cursor: pointer
+  height: 8px
+  width: 8px
+  margin: 0 9px
+  background-color: transparent
+  border: 1px solid rgba(255, 255, 255, 0.2)
+  border-radius: 50%
+  display: inline-block
+  transition: background-color 0.6s ease
+.dot:hover
+    width: 14px 
+    height: 14px
+    background: #ffffff
+.dot_cont
+    text-align: center
+    margin-top: -75px
+.fade 
+  -webkit-animation-name: fade
+  -webkit-animation-duration: 1.5s
+  animation-name: fade
+  animation-duration: 1.5s
+@-webkit-keyframes fade 
+  from 
+      opacity: .4 
+  to 
+      opacity: 1
+@keyframes fade 
+  from 
+      opacity: .4 
+  to 
+      opacity: 1
+.slider
+    height: 639px
+@media (max-width: 991px)
+    .pricing_white
+        &-wrap
+            margin-top: 35px
+            flex-direction: column
+            align-items: center
+    .info
+        &__text
+            font-size: 18px
+        &__name
+            font-size: 14px
+        &__position
+            font-size: 12px
+    .theme_now
+        height: 238px
+        &-wrap
+            flex-direction: column
+            align-items: center
+        .button
+            margin-top: 42px 
+@media (max-width: 768px)
+    .theme_now
+        &-text 
+            font-size: 30px
+@media (max-width: 576px)
+    .pricing_white
+        &-wrap
+            margin-top: 16px
+        .info
+            &__text
+                width: 370px
+                font-size: 15px
+            &__name
+            font-size: 12px
+            &__position
+                font-size: 10px
+    .theme_now
+        &-text 
+            font-size: 23px
+
+    

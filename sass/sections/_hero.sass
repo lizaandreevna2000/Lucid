@@ -1,0 +1,63 @@
+.hero
+    &-wrap 
+        height: 544px
+        display: flex
+        justify-content: space-between
+        margin-top: 49px
+    img 
+        width: 510px
+        height: 621px
+        margin-top: 28px
+        margin-right: -10px
+        align-self: center
+    &-blue
+         font-family: 'Source Sans Pro', sans-serif
+         font-size: 14px
+         text-transform: uppercase
+         font-weight: 700
+         letter-spacing: 1.4px
+         color: #0e5985
+         margin: 14px 0
+    &-big
+        font-family: 'Source Sans Pro', sans-serif
+        font-size: 48px
+        font-weight: 600
+        color: #ffffff
+        margin: 13px 0 15px 0 
+    &-paragraph
+        font-family: 'Source Sans Pro', sans-serif
+        font-size: 18px
+        font-weight: 400
+        color: #999999
+        line-height: 1.5
+        margin: 0
+    &__button
+        display: block
+    .group-button
+        display: flex
+@media (max-width: 991px)
+    .hero
+        &-wrap
+            justify-content: center
+        img
+            width: 300px
+            height: 358px
+            margin-top: 0
+            align-self: auto
+        &-big
+            font-size: 42px
+        &-paragraph
+            font-size: 16px
+@media (max-width: 768px)
+    .hero
+        &-wrap
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            margin-top: 0
+        &-group-text
+            text-align: center
+        img 
+            display: none
+        .button
+            display: none

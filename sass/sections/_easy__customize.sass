@@ -1,0 +1,34 @@
+.easy__customize
+    &-wrap 
+        display: flex
+        align-items: center
+    #phone
+        padding-top: 33px
+.customize__text
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    padding-bottom: 21px
+    .black-text
+        margin: 13px 0 25px
+.customize__paragraph
+    width: 469px
+    font-family: 'Source Sans Pro', sans-serif
+    font-size: 18px
+    color: #999999
+    line-height: 1.5
+    margin: 0
+@media (max-width: 991px)
+    .easy__customize
+        height: auto
+        &-wrap 
+            flex-direction: column
+        #phone
+            width: 400px
+        .customize__paragraph
+            font-size: 16px
+        .customize__text
+            padding-top: 60px
+@media (max-width: 768px)
+    .customize__paragraph
+        width: 400px
